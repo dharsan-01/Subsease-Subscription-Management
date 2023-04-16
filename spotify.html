@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spotify Premium Subscription</title>
+  </head>
+  <style>
+    /* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #1DB954;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  margin-right: 1rem;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #000;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('spotify bg.png');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.button {
+  background-color: #1DB954;
+  border: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #000;
+}
+
+/* Plans section styles */
+.plans {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.plan {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  width: 30%;
+}
+.plan h2 {
+  color: #1DB954;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.plan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.plan li {
+  margin-bottom: 0.5rem;
+}
+.plan .button {
+  margin-top: 2rem;
+}
+
+/* Features section styles */
+.features {
+  background-color: #f2f2f2;
+  padding: 3rem 0;
+  text-align: center;
+}
+.features h2 {
+  margin-bottom: 2rem;
+}
+.features ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.features li {
+  margin-right: 1rem;
+}
+.features li:last-child {
+  margin-right: 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+  </style>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Plans</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Sign up</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- Plans section -->
+    <section class="plans">
+      <div class="plan">
+        <h2>Spotify Free</h2>
+        <ul>
+          <li>Listen to music with ads</li>
+          <li>No offline playback</li>
+          <li>Limited skips</li>
+          <li>Shuffle play only</li>
+        </ul>
+        <br>
+        <a href="#" class="button">Upgrade to Premium</a>
+      </div>
+      <div class="plan">
+        <h2>Spotify Premium</h2>
+        <ul>
+          <li>Ad-free music</li>
+          <li>Offline playback</li>
+          <li>Unlimited skips</li>
+          <li>Play any song</li>
+        </ul>
+        <br>
+        <a href="#" class="button">Sign up now</a>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features">
+      <h2>Why go Premium?</h2>
+      <ul>
+        <li>No interruptions from ads</li>
+        <li>Listen offline anywhere</li>
+        <li>Play any song you want</li>
+        <li>Unlimited skips</li>
+        <li>Higher quality audio</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Spotify. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
